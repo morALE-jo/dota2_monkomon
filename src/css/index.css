@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #30363D;
+}
+
+h1 {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
