@@ -2,11 +2,6 @@ import React from 'react'
 import ContentGroup from './ContentGroup'
 
 export default function ContentPanel({ ContentView }) {
-	// 
-	/* 
-		
-
-	*/
 	if (ContentView === "Heroes"){
 		return (
 			<div className="content-panel">

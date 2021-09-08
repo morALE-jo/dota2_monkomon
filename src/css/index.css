@@ -6,6 +6,7 @@
 /* Components */
 @import './components/content-group.css';
 @import './components/heroList.css';
+@import './components/modal.css';
 
 
 body {
@@ -79,6 +80,7 @@ h4 {
   font-weight: normal;
   font-size: 19px;
   line-height: 24px;
+  margin: 10px;
 }
 h5 {
   font-family: Zilla Slab;
