@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Zilla+Slab&display=swap');
+/* Layout */
+@import './layout/topnav.css';
+@import './layout/content-panel.css';
+
+/* Components */
+@import './components/content-group.css';
+@import './components/heroList.css';
+
 
 body {
   margin: 0;
@@ -7,17 +15,50 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #30363D;
-}
-
-h1 {
-  font-family: Zilla Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 44px;
-  line-height: 56px;
   color: #FFFFFF;
 }
 
+/* Theme Colors */
+.color-primary {
+  color: #F27A54;
+}
+.color-secondary {
+  color: #A154F2;
+}
+.color-terciary {
+  color: #6FCF97;
+}
+.color-dark {
+  color: #30363D;
+}
+.color-white {
+  color: #30363D;
+}
+.color-gray-a {
+  color: #3C444C;
+}
+.color-gray-b {
+  color: #747D88;
+}
+.color-gray-c {
+  color: #CBCFD4;
+}
+.color-gradient {
+  color: linear-gradient(#F27A54, #A154F2);
+}
+
+/* Typography */
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 56px;
+  background: linear-gradient(#F27A54, #A154F2);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
 h2 {
   font-family: Zilla Slab;
   font-style: normal;
@@ -25,8 +66,39 @@ h2 {
   font-size: 32px;
   line-height: 36px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+h4 {
+  font-family: Zilla Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+}
+h5 {
+  font-family: Zilla Slab;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+}
+h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
 }
